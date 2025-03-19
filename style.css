@@ -1,0 +1,46 @@
+.social-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #0d6efd;
+}
+
+/* Progress bars */
+.progress {
+  height: 10px;
+  border-radius: 5px;
+}
+
+.progress-bar {
+  background-color: #0d6efd;
+}
+
+/* Blog styling */
+article.card {
+  border: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+article.card img {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.social-share a {
+  color: #6c757d;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.social-share a:hover {
+  color: #0d6efd;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .hero-section {
+    padding: 100px 0;
+  }
+}

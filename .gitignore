@@ -3,9 +3,6 @@
 # Ignore all personal vscode configuration files
 .vscode/
 
-# Ignore the papermod theme
-themes/
-
 # Ignore all .lock files
 *.lock
 

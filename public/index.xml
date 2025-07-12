@@ -1,43 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title></title>
-    <link>//localhost:1313/</link>
-    <description>Recent content on </description>
+    <title>About Me on My Personal Blog</title>
+    <link>http://localhost:1313//</link>
+    <description>Recent content in About Me on My Personal Blog</description>
     <generator>Hugo -- 0.146.0</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 01 Jul 2025 14:47:20 -0400</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My Third Post</title>
-      <link>//localhost:1313/posts/my-third-post/</link>
-      <pubDate>Tue, 01 Jul 2025 14:47:20 -0400</pubDate>
-      <guid>//localhost:1313/posts/my-third-post/</guid>
-      <description>&lt;p&gt;THIS IS MY THIRD POST!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>//localhost:1313/posts/my-first-post/</link>
-      <pubDate>Sun, 29 Jun 2025 02:04:18 -0400</pubDate>
-      <guid>//localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;p&gt;Hello Everyone,&lt;/p&gt;
-&lt;p&gt;This is a draft post!&lt;/p&gt;
-&lt;p&gt;This is another test&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My Second Post</title>
-      <link>//localhost:1313/posts/second-post/</link>
-      <pubDate>Sun, 29 Jun 2025 02:04:18 -0400</pubDate>
-      <guid>//localhost:1313/posts/second-post/</guid>
-      <description>&lt;p&gt;Hello Everyone,&lt;/p&gt;
-&lt;p&gt;This is my second post!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>About Me</title>
-      <link>//localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/about/</guid>
-      <description>&lt;p&gt;Hi, I&amp;rsquo;m Ahmed — a developer and engineering student passionate about embedded Linux, networking, and productivity.&lt;/p&gt;</description>
-    </item>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313//index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

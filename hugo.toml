@@ -4,12 +4,12 @@ title = "My Personal Blog"
 theme = "PaperMod"
 
 [params]
-  author = "Ahmed Rashid"
-  defaultTheme = "auto" 
-  showReadingTime = true
-  showCodeCopyButtons = true
-  ShowPostNavLinks = true
-  ShowShareButtons = true
+  author = "Ahmed Rashid" # Author name for metadata
+  defaultTheme = "dark" # Default Theme (I personally prefer dark mode) 
+  showReadingTime = true # Show estimated reading time in posts
+  showCodeCopyButtons = true # Add a copy-to-clipboard button to code blocks.
+  ShowPostNavLinks = true # shows navigation links (Prev/Next) at the bottom of posts
+  ShowShareButtons = true 
   ShowBreadCrumbs = true
   ShowToc = true
   [params.homeInfoParams]
@@ -18,10 +18,10 @@ theme = "PaperMod"
 
 [menu]
   [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 1
+    identifier = "home" # Identifier for the menu item (used internally)
+    name = "Home" # Display name for the menu item
+    url = "/" # relative URL relative to content root
+    weight = 1 # Weight determines the order of the menu items (lower weight appears first)
 
   [[menu.main]]
     identifier = "about"

@@ -1,2 +1,36 @@
-theme = 'PaperMod'
+baseURL = "https://ahmedsblog.netlify.app//"
+languageCode = "en-us"
+title = "My Personal Blog"
+theme = "PaperMod"
 
+[params]
+  author = "Ahmed Rashid"
+  defaultTheme = "auto" 
+  showReadingTime = true
+  showCodeCopyButtons = true
+  ShowPostNavLinks = true
+  ShowShareButtons = true
+  ShowBreadCrumbs = true
+  ShowToc = true
+  [params.homeInfoParams]
+    Title = "Hello, I'm Your Name 👋"
+    Content = "Welcome to my website. I'm a developer, writer, and enthusiast."
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Blog"
+    url = "/posts/"
+    weight = 3

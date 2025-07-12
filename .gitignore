@@ -3,6 +3,3 @@
 # Ignore all personal vscode configuration files
 .vscode/
 
-# Ignore all .lock files
-*.lock
-
